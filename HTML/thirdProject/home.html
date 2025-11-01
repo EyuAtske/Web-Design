@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Development</title>
+</head>
+<body >
+    <header>
+        <nav align="right" style="background-color: rgb(245, 245, 220); margin: 0">
+        <a href="#overview">Overview</a> |
+        <a href="#Concepts">Concepts</a> |
+        <a href="#media">Media</a> |
+        <a href="#forms">Forms</a> |
+        <a href="#resources">Resources</a>
+        </nav>
+        <h1 align="center" style="background-color: rgb(245, 245, 220); margin: 0; padding: 24px;">
+            Front End Development
+        </h1>
+    </header>
+    <section id="overview">
+        <article>
+            <h2 align="center">What is Frontend Development?</h2>
+            <p>
+                Frontend development is the practice of building the user-facing parts of a website or web application.
+                It uses <span style="font-size: 18px; font-weight: bold;">HTML</span> for structure, styling <span style="font-size: 18px; font-weight: bold;">CSS</span> for presentation, and <span style="font-size: 18px; font-weight: bold;">JavaScript</span> for interactivity.
+            </p>
+
+            <h3>Key Concepts</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>is the standard language used to create and structure the content of web pages using elements like headings, paragraphs, links, and images.</dd>
+                <dt>CSS</dt>
+                <dd>is the language used to control the visual presentation of HTML elements, including layout, colors, fonts, and spacing, to make web pages look attractive and consistent.</dd>
+                <dt>Java Script</dt>
+                <dd>is a programming language that adds interactivity, dynamic behavior, and functionality to web pages, allowing them to respond to user actions in real time.</dd>
+            </dl>
+
+            <p>
+                A short quote about frontend work:
+                <q><mark style="background-color: rgb(245, 245, 220)">Design is how it works as much as how it looks.</mark></q>
+            </p>
+        </article>
+        <hr>
+    </section>
+    <section id="Concepts">
+        <h2 align="center">What are the Concepts</h2>
+        <div>
+            
+        </div>
+        <div style="width: 50%;">
+            <img src="image/html.png" alt="html image" width="200" height="200"
+            style="float: left; margin-right: 10px; margin-bottom: 10px; padding: 2px"/>
+            <aside>
+                Each HTML document begins with a <mark style="background-color: rgb(245, 245, 220)">!DOCTYPE html</mark> declaration and is organized into two main parts: <br>
+                <ul>
+                    <li><strong>Head:</strong> contains metadata, the page title, and links to styles or scripts.</li>
+                    <li><strong>Body:</strong> contains the actual visible content shown in the browser.</li>
+                </ul>
+                HTML focuses on structure and semantics, meaning it tells browsers what each part of the page represents, not how it looks. The style is handled by CSS, and interactivity by JavaScript.
+                It’s the backbone of the web, allowing text, multimedia, and links to connect pages into the global network we use every day.
+            </aside>
+        </div>
+        <div style="width: 50%; float: right;">
+            <img src="image/css.png" alt="html image" width="200" height="200"
+            style="float: right; margin-left: 10px; margin-bottom: 10px; padding: 2px"/>
+            <aside>
+                With CSS, you can define colors, fonts, margins, borders, spacing, animations, and responsive layouts that adapt to different screen sizes and devices. <br>
+                Styles can be applied in three main ways: <br>
+                <ol>
+                    <li><strong>Inline CSS:</strong> written directly inside an HTML tag.</li>
+                    <li><strong>Internal CSS:</strong> written within a <mark style="background-color: rgb(245, 245, 220)">style</mark> tag in the HTML document’s <mark style="background-color: rgb(245, 245, 220)">head</mark>.</li>
+                    <li><strong>External CSS:</strong> stored in a separate .css file and linked with <mark style="background-color: rgb(245, 245, 220)">link rel="stylesheet"</mark>.</li>
+                </ol>
+                The term “cascading” means that when multiple styles apply to the same element, CSS follows a specific priority order (inline → internal → external → browser defaults) and uses selectors and specificity rules to decide which style takes effect.
+                In essence, CSS transforms plain HTML into visually appealing, <br>
+                user-friendly, and professional-looking web designs.
+            </aside>
+        </div>
+        <div style="width: 50%; float: left; clear: both;">
+            <img src="image/js.png" alt="html image" width="210" height="250"
+            style="float: left; margin-right: 10px; margin-bottom: 10px; padding: 2px"/>
+            <aside>
+                While HTML defines the structure of a page and CSS defines its style, JavaScript makes websites responsive to user actions, such as clicks, typing, scrolling, or loading new content without refreshing the page. <br>
+                JavaScript code can be added in three main ways: <br>
+                <ol>
+                    <li><strong>Inline JS:</strong> written directly inside an HTML element using the onclick, onchange, or other event attributes.</li>
+                    <li><strong>Internal JS:</strong> written within a <mark style="background-color: rgb(245, 245, 220)">script</mark> tag in the HTML document.</li>
+                    <li><strong>External JS:</strong> stored in a separate .js file and linked with <mark style="background-color: rgb(245, 245, 220)">script src="file.js" /script</mark></li>
+                </ol>
+                JavaScript is an essential language for modern web development because it <br>
+                transforms static web pages into interactive, dynamic experiences, enhancing usability and engagement.
+            </aside>
+        </div>
+        <div style="width: 33%; float: left; clear: both;">
+            <pre>
+                <code>
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;meta charset=&quot; UTF-8&quot; /&gt;
+                    &lt;title&gt;
+                    HTML Preformatted Text
+                    &lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt; body&gt;
+                    &lt;h1&gt;
+                    HTML Preformatted Text
+                    &lt;/h1&gt;
+                    &lt;p&gt;
+                    Hello, World!
+                    &lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+            <p><span style="font-size: 18px; font-weight: bold;">HTML</span> Basic Structure</p>
+            <meter value="90" min="0" max="100" low="0" high="100" optimum="90">90</meter>
+            <details>
+                <summary>Stats</summary>
+                <p>90% of all websites are based on HTML5 DOCTYPE.</p>
+            </details>
+        </div>
+        <div style="width: 33%; float: left;">
+            <pre>
+                <code>
+                    * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    }
+
+                    /* General body styles */
+                    body {
+                    font-family: Arial, sans-serif;
+                    line-height: 1.6;
+                    background-color: #f4f4f4;
+                    color: #333;
+                    padding: 20px;
+                    }
+                </code>
+            </pre>
+            <p><span style="font-size: 18px; font-weight: bold;">CSS</span> Basic Structure</p>
+            <meter value="95" min="0" max="100" low="0" high="100" optimum="90">95</meter>
+            <details>
+                <summary>Stats</summary>
+                <p>CSS is used by over 95% of all websites.</p>
+            </details>
+        </div>
+        <div style="width: 33%; float: left;">
+            <pre>
+                <code>
+                    // A constant variable that cannot be reassigned
+                    const heading = document.querySelector('h1');
+
+                    // A variable that can be reassigned
+                    let message = "Hello, World!";
+
+                    // Output the message to the browser's console for debugging
+                    console.log(message);
+
+                    // Change the text content of the h1 element
+                    heading.textContent = message;
+                </code>
+            </pre>
+            <p><span style="font-size: 18px; font-weight: bold;">JavaScript</span> Basic Structure</p>
+            <meter value="99" min="0" max="100" low="0" high="100" optimum="90">99</meter>
+            <details>
+                <summary>Stats</summary>
+                <p>99% of all websites for client-side programming.</p>
+            </details>
+        </div>
+        <div style="clear: both;"></div>
+        <hr>
+    </section>
+    <section id="media">
+        <h2 align="center">Audios & Videos</h2>
+        <div>
+            <div>
+                <hr>
+                <h3>HTML</h3>
+                <hr>
+                <video width="50%" height="315" controls>
+                    <source src="vid/HTML.mp4" type="video/mp4" />
+                </video>
+                <iframe align="right" width="50%" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8" title="HTML Tutorial" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+            <div>
+                <h4>Podcasts</h4>
+               <audio controls>
+                    <source src="audio/html.mp3" type="audio/mp3" />
+                </audio> 
+            </div>
+        </div>
+        <div>
+            <div>
+                <hr>
+                <h3>CSS</h3>
+                <hr>
+                <video width="50%" height="315" controls>
+                    <source src="vid/CSS.mp4" type="video/mp4" />
+                </video>
+                <iframe align="right" width="50%" height="315" src="https://www.youtube.com/embed/wRNinF7YQqQ" title="HTML Tutorial" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+            <div>
+                <h4>Podcasts</h4>
+               <audio controls>
+                    <source src="audio/CSS.mp3" type="audio/mp3" />
+                </audio> 
+            </div>
+        </div>
+        <div>
+            <div>
+                <hr>
+                <h3>JavaScript</h3>
+                <hr>
+                <video width="50%" height="315" controls>
+                    <source src="vid/js.mp4" type="video/mp4" />
+                </video>
+                <iframe align="right" width="50%" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk&t=1307s" title="HTML Tutorial" frameborder="0" allowfullscreen>
+                </iframe>
+        </div>
+        <hr>
+  </section>
+  <section id="forms">
+    <h2 align="center">Forms & Inputs</h2>
+
+    <form>
+      <fieldset align="center">
+        <legend>Sign up for a frontend newsletter</legend>
+
+        <p>
+          <label>Full name:</label><br />
+          <input type="text" name="name" placeholder="Jane Doe" required />
+        </p>
+
+        <p>
+          <label>Email:</label><br />
+          <input type="email" name="email" placeholder="johndoe@gmail.com" required />
+        </p>
+
+        <p>
+          <label>Your role:</label><br />
+          <select name="role">
+              <option selected>Student</option>
+              <option>Junior dev</option>
+              <option>Senior dev</option>
+          </select>
+        </p>
+
+        <p>
+          <label>Date of Birth:</label><br />
+          <input type="date" name="start-date"/>
+        </p>
+
+        <p>
+          Preferred contact:
+          <label><input type="radio" name="contact" checked /> Email</label>
+          <label><input type="radio" name="contact" /> Phone</label>
+        </p>
+
+        <p>
+          Interests (check all):<br />
+          <label><input type="checkbox" name="interest" checked /> HTML</label>
+          <label><input type="checkbox" name="interest" /> CSS</label>
+          <label><input type="checkbox" name="interest" /> JavaScript</label>
+        </p>
+
+        <p>
+          <label>Phone (format 123-456-7890):</label><br />
+          <input type="tel" name="phone" placeholder="###-###-####" />
+        </p>
+
+        <p>
+          <label>Pick a theme color:</label><br />
+          <input type="color" name="color" />
+        </p>
+
+        <p>
+          <label>Experience (years):</label><br />
+          <input type="number" name="experience"/>
+        </p>
+        <p>
+          <label>Satisfaction (1–10):</label><br />
+          <input type="range" name="satisfaction"/>
+        </p>
+
+        <p>
+          <label>Search topics:</label><br />
+          <input type="search" name="search" placeholder="HTML"/>
+        </p>
+
+        <p>
+          <label>Short bio:</label><br />
+          <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Tell us about your frontend journey..."></textarea>
+        </p>
+
+        <p>
+          <input type="submit" value="Subscribe" />
+          <input type="reset" value="Reset" />
+        </p>
+      </fieldset>
+    </form>
+  </section>
+  <section align="center" id="resources">
+    <h2>Resources Table</h2>
+    <table align="center" width="50%" style="border-collapse: collapse; border: 1px solid black;">
+        <caption>Frontend Resources</caption>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px;"><span style="font-size: 20px; font-weight: bold;">Type</span></td>
+            <td style="border: 1px solid black; padding: 5px;"><span style="font-size: 20px; font-weight: bold;">Documeentation</span></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px;">HTML</td>
+            <td style="border: 1px solid black; padding: 5px;"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML documentation</a></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 5px;">CSS</td>
+          <td style="border: 1px solid black; padding: 5px;"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS documentation</a></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 5px;">JavaScript</td>
+          <td style="border: 1px solid black; padding: 5px;"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript documentation</a></td>
+        </tr>
+    </table>
+  </section>
+  <div align="center">
+    <h3>Progress & Meter</h3>
+    <p>Congrats you have complited 1% of frontend</p>
+    <progress value="1" max="100">1%</progress>
+  </div>
+  
+  <footer align="center" style="background-color: rgb(245, 245, 220); margin: 0; padding: 24px;">
+    <h3>Developed by <a href="https://github.com/EyuAtske">Atske</a></h3>
+  </footer>
+</body>
+</html>
