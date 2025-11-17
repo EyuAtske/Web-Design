@@ -1,0 +1,63 @@
+/* Quiz 1 */
+
+/* a:link{
+    color: green;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    font-size: 40px;
+    color: brown;
+}
+a:active{
+    font-size: 40px;
+    color: brown;
+} */
+
+/* Quiz 2 */
+
+/* h1:first-child{
+    color: blue;
+}
+
+p:last-child{
+    color: green;
+    font-size: 20px;
+} */
+
+/* Quiz 3 */
+
+/* p:nth-child(even){
+    background-color: burlywood;
+}
+
+p:nth-child(odd){
+    background-color: green;
+} */
+
+/* Quiz 4 */
+/* p:nth-child(odd){
+    background-color: burlywood;
+} */
+
+/* Quiz 5 */
+/* p:nth-last-child(-1n+3){
+    background-color: burlywood;
+} */
+
+/* Quiz 6 */
+/* p:nth-child(-1n+4), p:nth-last-child(-1n+3){
+    background-color: burlywood;
+} */
+
+/* Quiz 7 */
+/* p:nth-child(1n+4):nth-last-child(1n+3){
+    background-color: burlywood;
+} */
+
+/* Quiz 8 */
+a:after{
+    content: "["attr(title)"]";
+    color: #666;
+}
