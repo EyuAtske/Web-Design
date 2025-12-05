@@ -30,11 +30,6 @@ header + img{
 
 #missing{
     display: none;
-    /* max-width: 309px;
-    max-height: 310px;
-    font-size: 60px;
-    background-color: red;
-    text-align: center; */
 }
 
 .pupy{
@@ -61,10 +56,5 @@ h2{
         font-size: 60px;
         background-color: red;
         text-align: center;
-    }
-
-    .pupy{
-        max-width: 369px;
-        max-height: 370px;
     }
 }
