@@ -23,49 +23,19 @@ p{
 .scale{
   transform: scale(0.9);
 }
-.back{
-  background-image: url("../images/home/apple-tv-background.jpg");
-  background-size: cover;
-  background-position: center;
-  width: auto;
-  height: auto;
-}
-#red{
-  color: red;
+.poster{
+  position: relative;
 }
 #black{
   background-color: black;
   color: white;
   justify-content: center;
 }
-.float {
-  display: inline-block;
-  vertical-align: top;
-}
-#over{
-  position: relative;
+.over{
+  position: absolute;
+  top: 40%;
+  left: 0%;
   width: 100%;
-}
-.overtextp{
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-.overtexth{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  letter-spacing: 30px;
-  font-size: 3vw;
-  font-weight: bold;
-  padding-top: 1%;
-  margin-top: 1%;
 }
 .row {
   margin-left: 0;
@@ -77,6 +47,9 @@ p{
 }
 img {
   max-width: 100%;
+}
+.spacing{
+  margin-bottom: 15px;
 }
 .white {
   color: #fff;
