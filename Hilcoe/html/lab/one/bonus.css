@@ -1,0 +1,74 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.lorem1{
+    background-color: #00f900;
+    grid-area: lorem1;
+}
+.lorem2{
+    background-color: #0432ff;
+    grid-area: lorem2;
+}
+.lorem3{
+    background-color: #ff40fe;
+    grid-area: lorem3;
+}
+.lorem4{
+    background-color: #929292;
+    grid-area: lorem4;
+}
+.lorem5{
+    background-color: #01fdff;
+    grid-area: lorem5;
+}
+.lorem6{
+    background-color: #ff7e7e;
+    grid-area: lorem6;
+}
+.wrapper{
+    height: 100vh;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    "lorem1"
+    "lorem2"
+    "lorem3"
+    "lorem4"
+    "lorem5"
+    "lorem6";
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+}
+
+@media (min-width:760px) {
+    .wrapper{
+        height: 100vh;
+        margin: 10px;
+        display: grid;
+        grid-template-areas: 
+        "lorem1 lorem2"
+        "lorem5 lorem3"
+        "lorem5 lorem4"
+        "lorem6 lorem4";
+        grid-template-rows: repeat(4, 1fr);
+        gap: 5px;
+    }
+}
+
+@media (min-width:969px) {
+    .wrapper{
+        height: 100vh;
+        margin: 10px;
+        display: grid;
+        grid-template-areas: 
+        "lorem1 lorem1 lorem2"
+        "lorem3 lorem4 lorem2"
+        "lorem5 lorem4 lorem2"
+        "lorem6 lorem6 lorem2";
+        grid-template-rows: repeat(4, 1fr);
+        gap: 5px;
+    }
+}

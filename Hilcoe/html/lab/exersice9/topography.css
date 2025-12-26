@@ -1,0 +1,20 @@
+h1{
+    background: #060;
+    text-decoration: underline;
+}
+div{
+    background-color: #C52546;
+}
+
+h1, p{
+    color: white;
+    text-transform: capitalize;
+    line-height: 40px;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px black;
+}
+
+span{
+    font-size: 40px;
+}

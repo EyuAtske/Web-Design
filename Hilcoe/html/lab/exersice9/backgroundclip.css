@@ -1,0 +1,13 @@
+h2{
+    width: 300px;
+    color: red;
+}
+
+.clip{
+    color: transparent;
+    background-image: url("imageOne.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-clip: text;
+}
